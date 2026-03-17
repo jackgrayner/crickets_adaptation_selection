@@ -1,0 +1,12 @@
+﻿island,name2,name1,singing_remain,Phenotypes1,Phenotypes,longitude,latitude
+Kauai,AgStation,Kauai.AS,N,Fw only,Fw,-159.396248,22.066852
+Kauai,VacantLot,Kauai.VL,N,Fw only,Fw,-159.39296,22.06501
+Kauai,CommonGround,Kauai.CG,Y,Cw & Fw,"Cw,Fw,Wt",-159.41836,22.196882
+Kauai,PonoKai,Kauai.PK,Y,Fw only,"Fw,Wt",-159.318688,22.072413
+Oahu,BYU,Oahu.BYU,Y,Cw & Fw,"Cw,Fw,Wt",-157.924724,21.643431
+Oahu,CommunityCenter,Oahu.CC,Y,Cw & Fw,"Cw,Fw,Wt",-157.809892,21.31625
+Oahu,AstronomyCenter,Oahu.AC,N,Fw only,Fw,-157.811468,21.306843
+Oahu,Kamilo,Oahu.KP,Y,Cw & Fw,"Cw,Fw,Wt",-157.684026,21.306495
+Hawaii,ChurchLawn,Hawaii.CL,Y,Cw & Fw,"Cw,Fw,Wt",-155.116028,19.717796
+Hawaii,UH,Hawaii.UH,Y,Cw & Sw,"Cw,Sw,Wt",-155.080237,19.703186
+Kauai,Hanalei,Kauai.WC,Y,Cw & Fw,"Cw,Fw,Wt",-159.501284,22.20124
