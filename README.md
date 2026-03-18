@@ -1,5 +1,4 @@
-# Data and scripts accompanying: 
-## Genomic signatures and consequences of adaptation across a landscape of crickets following the introduction of a parasitoid fly
+## Data and scripts accompanying: genomic signatures and consequences of adaptation across a landscape of crickets following the introduction of a parasitoid fly
 
 Novel species interactions provide an opportunity to assess the earliest stages of genetic adaptation in wild populations. We explored the genomic and geographic landscape of adaptation in small, fragmented Hawaiian cricket populations, which are parasitised by larvae of an introduced fly that targets singing males. Multiple protective male-silencing cricket morphs have recently spread despite song’s role in mate attraction. Combining population genomics and field selection experiments, we found sharp declines in the crickets’ effective population size after the fly’s introduction. Nevertheless, geographical variation in selection influences the distribution of male-silencing alleles, consistent with local adaptation. Populations showing the strongest evidence of recovery retain large numbers of singing-capable males, suggesting that initially adaptive responses to the fly created an evolutionary trap via loss of sexual signalling.
 
