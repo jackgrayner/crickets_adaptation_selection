@@ -117,7 +117,7 @@ fst.heatmap<-as.ggplot(fst.heatmap)+labs(tag="C")
 q.0.25<-function(x){quantile(x,0.025)}
 q.0.975<-function(x){quantile(x,0.975)}
 
-phlash<-read.csv("./phlash/Nes_phlash_OahuBYU_chr5_9_14.csv",h=F)
+phlash<-read.csv("./phlash/Nes_phlash_OahuBYU_chr5_9_14_cpu.csv",h=F)
 phlash<-data.frame(t(phlash))
 oahuBYU.t<-read.csv("./phlash/Nes_phlash_OahuBYU_chr5_9_14_timepoints.csv",h=F)
 phlash$pop<-"OahuBYU"
