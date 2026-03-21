@@ -121,8 +121,8 @@ g.silent<-ggplot(flies.sum.night,aes(x=site,y=log2(fw.rel.fitness),colour=island
   scale_y_continuous(breaks=seq(-1,2,0.2))+
   ylab("log2 rel. fitness of silent males")+#scale_y_continuous(transform = 'log2')+annotation_logticks(sides = 'l')+
   stat_summary(aes(group=site,fill=island),colour='#555555',shape=21,linewidth=0.5,
-               fun.data=mean_se,
-               fun.args = list(mult = 2))+
+               fun.data=mean_sdl,size=0.5,
+               fun.args = list(mult = 1))+
   #geom_boxplot(aes(group=site),alpha=0)+
   scale_colour_manual(values=c("#00c08b","#c77cff","#f8766d"))+
   scale_fill_manual(values=c("#00c08b","#c77cff","#f8766d"))#+
@@ -302,7 +302,7 @@ rm(list="All.Fw")
 #######
 #selection results (LFMM of genotype ~ fly attack rate)
 ######
-flysel<-read.csv("./GWAS_selection_analysis//LFMM_Pinf_results.csv",h=T) %>% mutate(p_lrt=P,chr=as.integer(gsub("scaffold_","",chr))) %>% filter(!is.na(Padj))
+flysel<-read.csv("./GWAS_selection_analysis/LFMM_Pinf_results.csv",h=T) %>% mutate(p_lrt=P,chr=as.integer(gsub("scaffold_","",chr))) %>% filter(!is.na(Padj))
 flysel$sig<-flysel$Padj<0.05
 flysel$ps1<-round(flysel$ps/2.5e+06)*2.5
 flysel$chr1.ps1<-paste(flysel$chr,flysel$ps1,sep=".")
@@ -358,7 +358,7 @@ library(variancePartition)
 pheno<-read.csv('./Diff_expression/Sikkink_pheno.csv')
 rownames(pheno)<-pheno$ID
 
-cts<-read.csv('/Diff_expression/Sikkink_gene_count_matrix.csv',h=T,row.names="gene_id")
+cts<-read.csv('./Diff_expression/Sikkink_gene_count_matrix.csv',h=T,row.names="gene_id")
 summary(colnames(cts) %in% rownames(pheno))
 cts<-cts[,order(colnames(cts))]
 pheno<-pheno[order(rownames(pheno)),]
