@@ -1,6 +1,6 @@
 ## Fly selection rates
 
-### flytrapping.csv
+### fly_survey_data.csv
 
 Results from fly trapping experiments.
 
