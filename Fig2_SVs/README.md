@@ -3,7 +3,7 @@
 Scripts to run and plot linkage disequilibrium (plot_LD.R), multidimensional scaling (run_plot_lostruct.R), and windowed PCA (run_winpca.sh, winpc_plot.R).
 
 ### ld_files
-Files used to calculate and plot LD 
+Files used to calculate and plot LD. Note that LD plots in the upper panel of Fig. 2 were rotated and arranged manually. 
 
 ### winpc_results
 Output files from windowed PCA used in plot.
